@@ -38,11 +38,11 @@ by [wangbin](https://www.baidu.com)
 
 ## 联系方式
 
-- Github: <https://github.com/wangbinwww/zxkl_interface>
+- Github: <https://github.com/wangbinwww/weather>
 - Email: [13331036973@163.com](mailto:github#mcxiaoke.com)
 
 ## 其它
 
-- Github: <https://github.com/wangbinwww/zxkl_interface>
+- Github: <https://github.com/wangbinwww/weather>
 
 ---
