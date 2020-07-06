@@ -1,0 +1,19 @@
+{
+    "beijing": {
+        "Nowurl": "https://api.seniverse.com/v3/weather/now.json?key=m6pg9iohdag408lr&location=beijing&language=zh-Hans&unit=c",
+        "Day3Url": "https://api.seniverse.com/v3/weather/daily.json?key=m6pg9iohdag408lr&location=beijing&language=zh-Hans&unit=c&start=0&days=3"
+    },
+
+    "shanghai": {
+        "Nowurl": "https://api.seniverse.com/v3/weather/now.json?key=m6pg9iohdag408lr&location=shanghai&language=zh-Hans&unit=c",
+        "Day3Url": "https://api.seniverse.com/v3/weather/daily.json?key=m6pg9iohdag408lr&location=shanghai&language=zh-Hans&unit=c&start=0&days=3"
+    },
+    "guangzhou": {
+        "Nowurl": "https://api.seniverse.com/v3/weather/now.json?key=m6pg9iohdag408lr&location=guangzhou&language=zh-Hans&unit=c",
+        "Day3Url": "https://api.seniverse.com/v3/weather/daily.json?key=m6pg9iohdag408lr&location=guangzhou&language=zh-Hans&unit=c&start=0&days=3"
+    },
+    "xian": {
+        "Nowurl": "https://api.seniverse.com/v3/weather/now.json?key=m6pg9iohdag408lr&location=xian&language=zh-Hans&unit=c",
+        "Day3Url": "https://api.seniverse.com/v3/weather/daily.json?key=m6pg9iohdag408lr&location=xian&language=zh-Hans&unit=c&start=0&days=3"
+    }
+}
