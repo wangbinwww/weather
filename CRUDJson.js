@@ -2,7 +2,6 @@
 
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
-
 const adapter = new FileSync('./json/jsonDB.json')
 const db = low(adapter, {
     autosave: true, // automatically save database on change (default: true)
@@ -21,8 +20,8 @@ var JsonData = {
 }
 
 //writeJsonConfig("posts", JsonData);
-//findJsonConfig("posts", "1")
-upJsonConfig()
+findJsonConfig("posts", "1")
+//upJsonConfig()
 
 
 //写数据库
@@ -34,32 +33,15 @@ function writeJsonConfig(tagGroupName, JsonData) {
 
 //查字段
 function findJsonConfig(tagGroupName, id) {
-    db.get(tagGroupName)
+    const value = db.get(tagGroupName)
         .find({
-            id: id
+            "ID": id
         })
-        .value()
+        .value();
+    console.log(value)
 }
 
 //更新字段
 function upJsonConfig(tagGroupName, id) {
     db.update('count', n => n + 1).write();
 }
-
-
-/*
-function myFunction() {
-    return "ok"
-}
-// Set a user using Lodash shorthand syntax
-db.set('user.name', 'TypeCode')
-    .write()
-
-// Increment count
-db.update('count', n => n + 1)
-    .write()
-
-
-
-
-    */

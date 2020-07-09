@@ -1,8 +1,33 @@
+/*
+最简单的一个伺服器
+node server.js 启动伺服器
+可访问端口
+
+get方式:
+url:  http://127.0.0.1:3000
+
+post方式
+url:  http://127.0.0.1:3000
+带json格式参数
+{
+    "name": "张三",
+    "age": "18"
+}
+*/
+
 const express = require('express')
 const bodyParser = require('body-parser')
 const moment = require('moment')
 const moment_timezone = require('moment-timezone')
 const port = 3000
+const mongoose = require('mongoose')
+const validator = require('validator')
+const bcrypt = require('bcryptjs')
+const _ = require('lodash')
+const jwt = require('jsonwebtoken')
+const {
+    ObjectID
+} = require('mongodb')
 
 var app = express();
 app.use(bodyParser.json());
